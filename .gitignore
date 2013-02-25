@@ -1,2 +1,5 @@
+# GENERAL
 *.DS_Store
 
+# JEKYLL
+_site/
