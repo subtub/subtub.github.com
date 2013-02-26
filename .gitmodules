@@ -1,6 +1,0 @@
-[submodule "assets/themes/subtub.theme"]
-	path = assets/themes/subtub.theme
-	url = git@github.com:subtub/subtub.theme.git
-[submodule "subtub.media"]
-	path = subtub.media
-	url = git@github.com:subtub/subtub.media.git
