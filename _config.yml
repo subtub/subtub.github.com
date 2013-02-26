@@ -82,7 +82,7 @@ JB :
   #
   comments :
     provider : disqus
-    disqus : subtub
+    disqus :
       short_name : subtub
     livefyre :
       site_id : 123
