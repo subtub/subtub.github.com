@@ -4,25 +4,22 @@ title: "Hello Processing.js"
 tagline: "This is a small processing.js jekyll test"
 category: processing.js
 tags: [processing, hello-world]
-
-p5_sketch: "
-\n void setup() {
-\n   size(600, 300);
-\n }
-\n 
-\n void draw() {
-\n   background(255,0,0);
-\n   fill(255);
-\n   ellipse(mouseX, mouseY, 10, 10);
-\n }
-"
+p5_description: "This is a small sketch description. <br />
+you can write a few lines about this sketch here."
 ---
 {% include JB/setup %}
 
-<b>Description:</b></br>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+/**
+ * This is a small test sketch for the jekyll processing layout.
+ */
+
+void setup() {
+  size(350, 200);
+  background(240);
+}
+
+void draw() {
+  fill(127);
+  noStroke();
+  ellipse(mouseX, mouseY, 10, 10);
+}
