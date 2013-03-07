@@ -1,0 +1,22 @@
+<script type="text/javascript" src="{{ ASSET_PATH }}subtub/js/processing-1.4.1.min.js"></script>
+<div class="page-header">
+  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+</div>
+
+
+<div class="row-fluid">
+  <div class="span6">
+  	<script type="text/processing" data-processing-target="targetcanvas">{{ page.p5_sketch }}</script>
+  	<canvas id="targetcanvas" style="border: 1px solid black;"></canvas>
+  </div>
+  <div class="span6">
+  	<pre>{{ page.p5_sketch }}</pre>
+  </div>
+</div>
+	
+<div class="row-fluid">
+  <div class="span6"></div>
+  <div class="span6">
+  	{{ content }}
+  </div>
+</div>
