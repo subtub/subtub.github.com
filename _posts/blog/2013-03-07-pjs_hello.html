@@ -1,0 +1,25 @@
+---
+layout: pjs
+title: "Hello Processing.js"
+tagline: "This is a small processing.js jekyll test"
+category: processing.js
+tags: [processing, hello-world]
+p5_description: "This is a small sketch description. <br />
+you can write a few lines about this sketch here."
+---
+{% include JB/setup %}
+
+/**
+ * This is a small test sketch for the jekyll processing layout.
+ */
+
+void setup() {
+  size(350, 200);
+  background(240);
+}
+
+void draw() {
+  fill(127);
+  noStroke();
+  ellipse(mouseX, mouseY, 10, 10);
+}
