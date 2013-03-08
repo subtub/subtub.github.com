@@ -1,0 +1,24 @@
+<script type="text/javascript" src="{{ ASSET_PATH }}subtub/js/processing-1.4.1.min.js"></script>
+<div class="page-header">
+  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+</div>
+
+<div class="row-fluid">
+  <div class="span6">
+  	<script type="text/processing" data-processing-target="targetcanvas">{{ content }}</script>
+  	<canvas id="targetcanvas" style="border: none;"><p>Please upgrade your browser to something newer, like <a href="http://chrome.google.com" target="_blank">Google Chrome</a></p></canvas>
+  </div>
+  <div class="span6">
+  	<pre>{{ content }}</pre>
+  </div>
+</div>
+
+{% if page.p5_description %}
+<div class="row-fluid">
+  <div class="span6"></div>
+  <div class="span6">
+  	<b>Description:</b><br />
+  	{{ page.p5_description }}
+  </div>
+</div>
+{% endif %}
