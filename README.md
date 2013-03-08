@@ -28,7 +28,7 @@ For more information on SemVer, please visit [http://semver.org/](http://semver.
 - [wng.cc](http://www.wrongentertainment.com/)
 
 **Tim Pulver**
-- [tim pulver](http://www.timpulver.de/)
+- [timpulver.de](http://www.timpulver.de/)
 
 
 
