@@ -4,6 +4,8 @@
 
 ### [Code Snippet for Retina-Image-Output](https://github.com/ixti/jekyll-assets/issues/39#issuecomment-21454374)
 
+Snippet of code to support double size images for retina screens
+
 ## Useful Jekyll Plugins
 
 ### [Glynn](https://github.com/dmathieu/glynn)
