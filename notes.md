@@ -1,5 +1,9 @@
 # Notes
 
+## Useful Tutorials / Tips
+
+### [Code Snippet for Retina-Image-Output](https://github.com/ixti/jekyll-assets/issues/39#issuecomment-21454374)
+
 ## Useful Jekyll Plugins
 
 ### [Glynn](https://github.com/dmathieu/glynn)
